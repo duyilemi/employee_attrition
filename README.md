@@ -1,32 +1,25 @@
-## **README File for Salifort Motors Employee Turnover Prediction**
-
 ### **Project Overview**
 
 This project aims to predict employee turnover at Salifort Motors using machine learning techniques. By identifying factors contributing to attrition, the company can implement targeted strategies to improve retention and reduce costs associated with recruitment and onboarding.
 
-### **Dataset**
+### **Tools and Libraries**
 
-- **Source:** Simulated data (reference: [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv))
-- **Size:** 15,000 rows x 10 columns
-- **Variables:**
-  - `satisfaction_level`: Employee-reported job satisfaction level (0-1)
-  - `last_evaluation`: Score of employee's last performance review (0-1)
-  - `number_project`: Number of projects employee contributes to
-  - `average_monthly_hours`: Average number of hours employee worked per month
-  - `time_spend_company`: How long the employee has been with the company (years)
-  - `Work_accident`: Whether or not the employee experienced an accident while at work (binary)
-  - `left`: Whether or not the employee left the company (binary - target variable)
-  - `promotion_last_5years`: Whether or not the employee was promoted in the last 5 years (binary)
-  - `Department`: The employee's department (categorical)
-  - `salary`: The employee's salary (U.S. dollars)
+- **Python:** The primary programming language used for data analysis and machine learning.
+- **Pandas:** A powerful data manipulation and analysis library.
+- **NumPy:** A library for numerical computations and array operations.
+- **scikit-learn:** A comprehensive machine learning library with algorithms for classification, regression, clustering, and more.
+- **XGBoost:** A gradient boosting framework known for its speed and performance.
+- **Matplotlib:** A plotting library for creating visualizations.
+- **Seaborn:** A high-level data visualization library built on top of Matplotlib.
 
 ### **Methodology**
 
 1. **Data Exploration:** Conducted exploratory data analysis (EDA) to understand the data distribution and identify potential relationships between variables.
-2. **Feature Engineering:** Considered feature engineering techniques to create new variables or transform existing ones if necessary.
-3. **Model Selection:** Evaluated Random Forest and XGBoost algorithms for their suitability in predicting employee turnover.
-4. **Model Training:** Trained both models on the dataset, optimizing hyperparameters using techniques like GridSearchCV.
-5. **Evaluation:** Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
+2. **Data Preprocessing:** Cleaned and prepared the data, handling missing values, outliers, and encoding categorical variables.
+3. **Feature Engineering:** Created new features or transformed existing ones to improve model performance.
+4. **Model Selection:** Evaluated Random Forest and XGBoost algorithms for their suitability in predicting employee turnover.
+5. **Model Training:** Trained both models on the dataset, optimizing hyperparameters using techniques like GridSearchCV.
+6. **Model Evaluation:** Assessed model performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
 
 ### **Results**
 
